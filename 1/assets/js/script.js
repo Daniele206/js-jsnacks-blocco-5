@@ -1,4 +1,4 @@
-const list = [
+const zucchine = [
   {
     varietá: 'nera',
     perso_in_g: 100,
@@ -34,4 +34,16 @@ const list = [
     perso_in_g: 80,
     lunghezza_in_cm: 9,
   },
-]
+];
+
+let pesoTotale = 0;
+
+for(zucchina of zucchine){
+  pesoTotale = pesoTotale + zucchina.perso_in_g;
+}
+
+console.log(pesoTotale);
+
+const output = document.querySelector('.my-output');
+
+output.innerHTML = 'Tutte le zucchine insieme pesano ' + pesoTotale + 'g';
