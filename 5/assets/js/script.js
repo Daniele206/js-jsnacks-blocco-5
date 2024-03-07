@@ -18,9 +18,9 @@ let secondNumberOk = 'notOk';
 
 while(firstNumberOk != 'ok' || secondNumberOk != 'ok'){
   if(firstNumberOk === 'notOk'){
-    firstNumber = prompt('isnerisci un numero da 0 a ' + arrayIniziale.length);
+    firstNumber = prompt('isnerisci un numero da 1 a ' + arrayIniziale.length);
   }
-  if(firstNumber >= 0 && firstNumber <= arrayIniziale.length){
+  if(firstNumber >= 1 && firstNumber <= arrayIniziale.length){
     firstNumberOk = 'ok';
     secondNumber = prompt('isnerisci un numero da ' + firstNumber + ' a ' + arrayIniziale.length);
     
