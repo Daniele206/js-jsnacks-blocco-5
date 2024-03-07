@@ -34,6 +34,21 @@ const zucchine = [
     perso_in_g: 80,
     lunghezza_in_cm: 9,
   },
+  {
+    varietá: 'patisson',
+    perso_in_g: 450,
+    lunghezza_in_cm: 35,
+  },
+  {
+    varietá: 'rugoso friulano',
+    perso_in_g: 200,
+    lunghezza_in_cm: 19,
+  },
+  {
+    varietá: 'crookneck',
+    perso_in_g: 170,
+    lunghezza_in_cm: 16,
+  },
 ];
 
 let pesoTotale = 0;
