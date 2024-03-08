@@ -23,7 +23,6 @@ while(firstNumberOk != 'ok' || secondNumberOk != 'ok'){
   if(firstNumber >= 1 && firstNumber <= arrayIniziale.length){
     firstNumberOk = 'ok';
     secondNumber = prompt('isnerisci un numero da ' + firstNumber + ' a ' + arrayIniziale.length);
-    
     if(secondNumber >= firstNumber && secondNumber <= arrayIniziale.length){
       secondNumberOk = 'ok';
     }

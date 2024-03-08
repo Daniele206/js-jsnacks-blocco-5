@@ -59,7 +59,7 @@ function zucchinaGrande(zucchina){
 };
 
 function zucchinaPiccola(zucchina){
-  return zucchina.lunghezza_in_cm < 15;
+  return zucchina.lunghezza_in_cm <= 15;
 };
 
 console.log(zucchineGrandi); 
